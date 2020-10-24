@@ -1,0 +1,13 @@
+{
+    "name": "Yetibot Organization Release Workflow",
+    "description": "Release to Clojars",
+    "iconName": "yetibot_mark_blue.svg",
+    "categories": [
+        "Leiningen",
+        "Clojure",
+        "Continuous Delivery"
+    ],
+    "filePatterns": [
+        "project.clj$",
+    ]
+}
