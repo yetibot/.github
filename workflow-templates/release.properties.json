@@ -6,6 +6,6 @@
         "Clojure"
     ],
     "filePatterns": [
-        "project.clj$",
+        "^project.clj$"
     ]
 }
