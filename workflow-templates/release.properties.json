@@ -4,8 +4,5 @@
     "iconName": "yetibot_mark_blue",
     "categories": [
         "Clojure"
-    ],
-    "filePatterns": [
-        "project.clj",
     ]
 }
