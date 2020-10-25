@@ -8,6 +8,6 @@
         "Continuous Delivery"
     ],
     "filePatterns": [
-        "project.clj$",
+        "project.clj",
     ]
 }
