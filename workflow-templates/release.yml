@@ -6,12 +6,15 @@ on:
       - $default-branch
 
 jobs:
-  deploy:
+
+  release:
     runs-on: ubuntu-latest
     container: clojure:lein
     steps:
       - name: checkout
         uses: actions/checkout@v2
+      - name: test
+        run: lein midje
       - name: release
         env:
           CLOJARS_USERNAME: ${{ secrets.CLOJARS_USERNAME }}
